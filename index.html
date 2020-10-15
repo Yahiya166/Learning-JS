@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JavaScript</title>
+</head>
+<style>
+    .header{
+        margin-top: 250px;
+        padding: 50px;
+        background-color: aqua;
+    }
+    .hidden{
+        display: none;
+    }
+
+    .image{
+        width: 300px;
+        height: 300px;
+    }
+
+    .blue{
+        color: rebeccapurple;
+    }
+</style>
+<body>
+ 
+    <!-- <center>
+    <div class="header">
+        <h1> Learning JavaScript </h1>
+    </div>
+    </center> -->
+
+
+<!-- ****** Chapter # 45 ****** -->
+
+
+<!-- <a href="#" onclick="alert('Hello World')"> Click Me </a> -->
+
+<!-- <a href="#" onclick= "var b = 'Hello';alert(b)"> Click Me </a> -->
+
+<!-- <a href="#" onclick= "foo()"> Click Me </a> -->
+
+<!-- <a href="#" onclick= "foo('Hello Yahiya')"> Click Me </a> -->
+
+
+<!-- ****** Chapter # 46 ****** -->
+
+
+<!-- <input  type="button" name="onclick" value="Click ME" onclick="foo()"> -->
+
+<!-- <button onclick="foo()"> Click Me </button> -->
+
+<!-- <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="car" onclick="foo()" width="300px" height="150px"> -->
+
+
+<!-- ****** Chapter # 46 ****** -->
+
+
+<!-- <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="car" onmouseover="src='https:images.unsplash.com/photo-1525609004556-c46c7d6cf023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'" width="300px" height="150px"> -->
+
+<!-- <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="car" onmouseover="console.log('over')" width="300px" height="150px"> -->
+
+<!-- <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="car" onmouseout="console.log('out')" onmouseover="console.log('over')" width="300px" height="150px"> -->
+
+
+<!-- ****** Chapter # 48 ****** -->
+
+
+<!-- <input type="text" onfocus="console.log('focus')"> -->
+
+<!-- <input type="text" onfocus="this.style.backgroundColor='yellow';"> -->
+
+<!-- <input type="text"  onblur="this.style.backgroundColor='red';" onfocus="this.style.backgroundColor='yellow';"> -->
+
+
+<!-- ****** Chapter # 48 ****** -->
+
+
+<!-- <input type="text" id="name">
+
+<button onclick="getName()">Click</button> -->
+
+
+<!-- ****** Chapter # 50 ****** -->
+
+
+<!-- <input type="text" id="name">
+
+<button onclick="setName()">Click</button> -->
+
+<!-- <p id="para"></p> -->
+
+
+<!-- // ****** Chapter # 51 ****** -->
+
+
+<!-- <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum ratione distinctio sapiente aliquid corrupti quidem est perferendis quos sunt, quibusdam accusamus sequi unde. Nemo libero vitae expedita nam incidunt.</p> -->
+
+<!-- <p id="pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <a href="javascript:void(0);" onclick="readmore()"> Read More</a> </p> -->
+
+
+<!-- // ****** Chapter # 52 ****** -->
+
+
+<!-- <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="car" id="car" onclick="big()" width="300px" height="200px"> -->
+
+<!-- <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="car" class="image" id="car" onclick="big()"> -->
+
+
+<!-- // ****** Chapter # 53 ****** -->
+
+
+<!-- <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="image" id="img" onmouseout="carImageBefore()" onmouseover="carImage()" alt="car"> -->
+
+<!-- <img src="car/photo-1552519507-da3b142c6e3d.jpg" class="image" id="img" onmouseout="carImageBefore()" onmouseover="carImage()" alt="car"> -->
+
+<!-- <img src="car/photo-1552519507-da3b142c6e3d.jpg" class="image" id="img" onmouseout="changeImage('img','car/photo-1552519507-da3b142c6e3d.jpg')" onmouseover="changeImage('img','car/photo-1525609004556-c46c7d6cf023.jpg')" alt="car"> -->
+
+
+<!-- // ****** Chapter # 55****** -->
+
+
+<!-- <img src="car/photo-1552519507-da3b142c6e3d.jpg" id="img" onclick="changeImage()" alt="car"> -->
+
+<!-- <p id="pera" onclick="changePera()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum adipisci officiis, perferendis tempore sint vel quod doloribus fuga illum deleniti quia ullam eaque maxime dignissimos fugit at delectus commodi iure!</p> -->
+    
+
+<!-- // ****** Chapter # 56 ****** -->
+
+
+<!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci distinctio placeat nobis sequi nemo veritatis excepturi magni eius animi aliquam consequuntur est cumque optio totam, neque corrupti! Alias, suscipit eaque!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, cum magni? Atque at a fugiat fugit repellendus sapiente, soluta ab non pariatur nam dicta expedita accusamus corporis perferendis, corrupti numquam?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga, pariatur consequatur ipsam aut iste nesciunt cum veniam maiores. Repudiandae officia, repellat vel culpa quas velit quis? Commodi, quos! Asperiores.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore illum quibusdam totam iusto officiis, distinctio, ratione autem voluptates minus ipsum quo illo velit qui perferendis commodi cum quia eaque!</p> -->
+
+
+
+<!-- // ****** Chapter # 57 ****** -->
+
+
+<!-- <div id="parent">
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci distinctio placeat nobis sequi nemo veritatis excepturi magni eius animi aliquam consequuntur est cumque optio totam, neque corrupti! Alias, suscipit eaque!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, cum magni? Atque at a fugiat fugit repellendus sapiente, soluta ab non pariatur nam dicta expedita accusamus corporis perferendis, corrupti numquam?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga, pariatur consequatur ipsam aut iste nesciunt cum veniam maiores. Repudiandae officia, repellat vel culpa quas velit quis? Commodi, quos! Asperiores.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore illum quibusdam totam iusto officiis, distinctio, ratione autem voluptates minus ipsum quo illo velit qui perferendis commodi cum quia eaque!</p>
+</div>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci distinctio placeat nobis sequi nemo veritatis excepturi magni eius animi aliquam consequuntur est cumque optio totam, neque corrupti! Alias, suscipit eaque!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, cum magni? Atque at a fugiat fugit repellendus sapiente, soluta ab non pariatur nam dicta expedita accusamus corporis perferendis, corrupti numquam?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga, pariatur consequatur ipsam aut iste nesciunt cum veniam maiores. Repudiandae officia, repellat vel culpa quas velit quis? Commodi, quos! Asperiores.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore illum quibusdam totam iusto officiis, distinctio, ratione autem voluptates minus ipsum quo illo velit qui perferendis commodi cum quia eaque!</p> -->
+
+
+
+<!-- // ****** Chapter # 64 ****** -->
+
+
+<!-- <ul>
+    <li id="li1">1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul> -->
+
+
+
+<!-- // ****** Chapter # 65 ****** -->
+
+
+
+<!-- <p id="p1">This is an example</p> -->
+
+
+
+<!-- // ****** Chapter # 66 ****** -->
+
+
+<!-- <p class="abc" id="p1">This is an example</p> -->
+
+
+<!-- // ****** Chapter # 67,68 ****** -->
+
+
+<!-- <div id="abc"></div> -->
+
+
+<!-- // ****** sample ****** -->
+
+
+<!-- <div id="message">
+</div>
+
+<input type="text" id="abc" />
+
+<button onclick="addMessages()"> Send </button> -->
+
+
+
+<!-- // ****** Chapter # 76 ****** -->
+
+
+<!-- <button onclick="press()"> Click Me </button> -->
+
+
+<!-- // ****** Chapter # 77 ****** -->
+
+
+<!-- <input type="text">
+<button onclick="login()"> Login </button> -->
+
+
+<!-- // ****** Chapter # 78 ****** -->
+
+
+
+<!-- <button> <-- </button>  <button> --> <!-- </button> -->
+
+
+
+<!-- // ****** Chapter # 79,80,81 ****** -->
+
+
+
+<button onclick="press()"> Click Me </button>
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
